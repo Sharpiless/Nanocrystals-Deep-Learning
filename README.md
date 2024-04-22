@@ -95,6 +95,10 @@ You can change "--object_name XXXX" to set the name of unknow/unseen products.
 
 ## Prepare you own dataset
 
+Here is a statics of our data:
+
+![static](assets/static.png)
+
 [To Do]
 
 Data shoud be save in a ".csv" file, where "X1" indicates the amount of substance (mol) and "X2" indicates the name of substance. Note that "T*" indicate the product, while the others indicate reactants.
