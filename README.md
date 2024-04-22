@@ -78,9 +78,9 @@ You will get the same results in log.txt:
 
 We also support size prediction of unknow/unseen products, by treating one products as validation set and the others as training set. We show size-prediction results of 4 products which are not seen in the training data (0~20 nm):
 
-| Test dataset | MAPE (a.u.) | | | MAE (nm) | | | R² (a.u.) | | |
-|--------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|              | Random forest | Transformer (Train from scratch) | Transformer (Pretrain-finetune) | Random forest | Transformer (Train from scratch) | Transformer (Pretrain-finetune) |
+| Test dataset | | MAPE (a.u.) | | | MAE (nm) | | | R² (a.u.) | |
+|--------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|              | Random forest | Transformer (Train from scratch) | Transformer (Pretrain-finetune) | Random forest | Transformer (Train from scratch) | Transformer (Pretrain-finetune) | Random forest | Transformer (Train from scratch) | Transformer (Pretrain-finetune) |
 | PbSe         | 0.3974 | 0.3147 | **0.2643** | 3.4976 | 3.4941 | **2.6522** | -6.4040 | -0.1443 | **0.3853** |
 | Ag2S         | 0.4466 | 0.6934 | **0.6512** | 3.4927 | 3.4786 | **3.1903** | -2.5640 | 0.1936 | **0.4056** |
 | Ni           | 0.2922 | 0.3528 | **0.3536** | 2.4626 | 2.5411 | **2.0056** | -3.2779 | 0.2022 | **0.4200** |
