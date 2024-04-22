@@ -1,0 +1,35 @@
+CUDA_VISIBLE_DEVICES=0 python train.py \
+    --raw_data data/0309_classification_and_reg-raw-v3.csv \
+    --model_type transformer --epoch 300 \
+    --model_version v4 --cls_token \
+    --dim_feedforward 256 --hidden_size 256 \
+    --num_layers 8 --num_head 4 --lr 0.001 \
+    --feats feats/unioml_feats_20240309_1x_ours_1x_mof.pkl \
+    --num_threshold 300 --pretrain_ratio 0.8 \
+    --batch_size 1024 --threshold 20 --weak_threshold 0.15 \
+    --weak_data --max_threshold 10000 \
+    --seed 0 --scaler_m robust --scaler_t robust \
+    --save_path results-0419-best \
+    --exp pretrain-default-wo-dropout --input_size 514 \
+    --scalers_path scalers/scalers-10000-cls-robust.pkl --without_product \
+    --cls_loss_ratio 1.0 --size_loss_ratio 0.0 \
+    --size_as_input --val_epoch 5 --dropout 0.0 --binary_loss_ratio 1.0 \
+    --load_failure --local_expand_data --not_trust_extra \
+
+CUDA_VISIBLE_DEVICES=0 python train.py \
+    --raw_data data/0309_classification_and_reg-raw-v3.csv \
+    --model_type transformer --epoch 5000 \
+    --model_version v4 --cls_token \
+    --dim_feedforward 256 --hidden_size 256 \
+    --num_layers 8 --num_head 4 --lr 0.001 \
+    --feats feats/unioml_feats_20240309_1x_ours_1x_mof.pkl \
+    --num_threshold 300 --pretrain_ratio 0.8 \
+    --batch_size 1024 --threshold 20 --weak_threshold 0.15 \
+    --weak_data --max_threshold 10000 \
+    --seed 0 --scaler_m robust --scaler_t robust \
+    --save_path results-0419-best \
+    --exp finetune-default-wo-dropout-10000 --input_size 514 \
+    --scalers_path scalers/scalers-10000-cls-robust.pkl --without_product \
+    --cls_loss_ratio 1.0 --size_loss_ratio 0.0 \
+    --size_as_input --val_epoch 5 --dropout 0.0 --binary_loss_ratio 0.0 \
+    --pretrained results-0419-best/results-pretrain-default-wo-dropout/latest
