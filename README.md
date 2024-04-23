@@ -6,12 +6,11 @@
 
 ![Main](assets/main.png)
 
-The synthesis model based on transformer structure for nanocrystals takes the synthesis conditions and material structure features from the synthesis recipe dataset as input. By utilizing the proposed data augmentation method based on reaction intermediates, the input data was expanded **tenfold**. This resulted in the model achieving an average absolute error of **1.39 nm** in predicting nanocrystal size, and the average accuracy for predicting morphology reached **90%**.
+The synthesis model based on transformer structure for nanocrystals takes the synthesis conditions and material structure features from the synthesis recipe dataset as input. By utilizing the proposed reaction intermediate-based data augmentation, the input data was expanded **tenfold**. This resulted in the model achieving an average absolute error of **1.39 nm** in predicting nanocrystal size, and the average accuracy for predicting morphology reached **90%**.
 
 We show the transformer model in the following:
 
 ![Transformer](assets/transformer.png)
-
 
 ## Installation
 ```
@@ -97,19 +96,19 @@ You can change "--object_name XXXX" to set the name of unknow/unseen products.
 
 ## Prepare you own dataset
 
-The synthetic formula dataset contains **3,448** formulas, which is an order of magnitude more than those reported in the literature.  The involved nanocrystals nearly cover the entire periodic table, including **562** synthetic formulas for elements, **1,961** for binary compounds, and also **382** different types of precursors. Deep learning requires larger datasets, therefore, we propose a data augmentation method based on reaction intermediates, utilizing DFT calculations of the reaction intermediate structures as new descriptors, achieving a tenfold expansion of the data. Here is the frequency distribution of elements in different nanocrystals within the dataset:
+The synthetic recipe dataset contains **3,448** recipes, which is an order of magnitude more than those reported in the literature.  The involved nanocrystals nearly cover the entire periodic table, including **562** synthetic recipes for elements, **1,961** for binary compounds, and also **382** different types of precursors. Deep learning requires larger datasets, therefore, we propose a reaction intermediate-based data augmentation method, utilizing DFT calculations of the reaction intermediate structures as new descriptors, achieving a tenfold expansion of the data. Here is the frequency distribution of elements in different nanocrystals within the dataset:
 
 ![static](assets/static.png)
 
 [To Do]
 
-Data shoud be save in a ".csv" file, where "X1" indicates the amount of substance (mol) and "X2" indicates the name of substance. Note that "T*" indicate the product, while the others indicate reactants.
+Data shoud be save in a ".csv" file, where "X1" indicates the amount of substance (mmol) and "X2" indicates the name of substance. Note that "T*" indicate the product, while the others indicate reactants. "Temperature1" indicates injection temperature and "Temperature2" indicates reaction temperature. "Speed" indicates rate of temperature increase (℃/min) and "Time" indicates reaction time. "Num" indicates the statistics number of nanocrystals.
 
 | ID | Temperature1 | Temperature2 | Speed | Time | Num  | Y1   | Y2   | Y3 | T1 | T2  | A1 | B1 | C1     | D1    | E1    | F1    | G1 | H1 | I1 | J1 | K1 | L1 | M1 | A2  | B2 | C2  | D2  | E2 | F2 | G2 | H2 | I2 | J2 | K2 | L2 | M2         |
 |----|--------------|--------------|-------|------|------|------|------|----|----|-----|----|----|--------|-------|-------|-------|----|----|----|----|----|----|----|-----|----|-----|-----|----|----|----|----|----|----|----|----|-----------|
 | 1  | 140          | 140          | 0     | 5    | 1195 | 4.87 | 6.49 | 9  | 1  | PbSe| 5  | 5  | 46.875 | 5.015 | 5.605 | 22.214| 0  | 0  | 0  | 0  | 0  | 0  | 0  | PbO | Se | ODE | OLA | TOP| OA | PlaceHolder | PlaceHolder | PlaceHolder | PlaceHolder | PlaceHolder | PlaceHolder | PlaceHolder |
 
-## Prepare you own expanded dataset
+## Reaction intermediate-based data augmentation
 
 To overcome the challenge of limited training data, we propose for the first time a data augmentation method based on reaction intermediates:
 
