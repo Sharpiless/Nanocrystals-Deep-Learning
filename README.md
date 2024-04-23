@@ -4,7 +4,9 @@
 
 ## Abstract 
 
-The synthesis model based on transformer structure for nanocrystals takes the characterized synthesis conditions and material structures from the synthesis formula dataset as input. By utilizing the proposed data augmentation method based on reaction intermediates, the input data was expanded **tenfold**. This resulted in the model achieving an average absolute error of **1.39 nm** in predicting nanocrystal size, and the average accuracy for predicting morphology reached **90%**.
+![Main](assets/main.png)
+
+The synthesis model based on transformer structure for nanocrystals takes the synthesis conditions and material structure features from the synthesis recipe dataset as input. By utilizing the proposed data augmentation method based on reaction intermediates, the input data was expanded **tenfold**. This resulted in the model achieving an average absolute error of **1.39 nm** in predicting nanocrystal size, and the average accuracy for predicting morphology reached **90%**.
 
 We show the transformer model in the following:
 
