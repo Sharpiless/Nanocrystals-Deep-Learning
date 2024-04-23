@@ -95,7 +95,7 @@ You can change "--object_name XXXX" to set the name of unknow/unseen products.
 
 ## Prepare you own dataset
 
-Here is a statics of our data:
+The synthetic formula dataset contains **3,448** formulas, which is an order of magnitude more than those reported in the literature.  The involved nanocrystals nearly cover the entire periodic table, including **562** synthetic formulas for elements, **1,961** for binary compounds, and also **382** different types of precursors. Deep learning requires larger datasets, therefore, we propose a data augmentation method based on reaction intermediates, utilizing DFT calculations of the reaction intermediate structures as new descriptors, achieving a tenfold expansion of the data. Here is the frequency distribution of elements in different nanocrystals within the dataset:
 
 ![static](assets/static.png)
 
