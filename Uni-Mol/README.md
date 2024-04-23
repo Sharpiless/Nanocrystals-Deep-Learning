@@ -57,7 +57,7 @@ And modify the save path of the ".pkl" file in extract.py line 65/66.
 
 ### Process dataset
 
-Training or fine-tuning your own data, empirically speaking, leads to better performance.
+Training or fine-tuning Uni-Mol on your own data, empirically speaking, leads to better performance.
 
 First, to process the ".cif" files into the format by Uni-Mol for training, run:
 
@@ -75,7 +75,7 @@ ours0422
 ├── train.lmdb
 ```
 
-We do not split validation set as we want to train mdoel on all the ".cif" files.
+We do not split validation set as we want to train mdoel on all the substances.
 
 ### Finetune your model
 
@@ -89,11 +89,13 @@ to generate checkpoints to be loaded as pretrained weights.
 
 This code generates a new ".pt" file. We take **"mof"** model as example:
 
+```
 unimol_tools/unimol_tools
 ├── weights
     ├── mof_pre_no_h_CORE_MAP_20230505.pt
     ├── mof_pre.pt
     ├── ...
+    ```
 
 where "mof_pre.pt" are the generated weights to be loaded.
 
