@@ -95,7 +95,7 @@ unimol_tools/unimol_tools
     ├── mof_pre_no_h_CORE_MAP_20230505.pt
     ├── mof_pre.pt
     ├── ...
-    ```
+```
 
 where "mof_pre.pt" are the generated weights to be loaded.
 
