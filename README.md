@@ -31,6 +31,10 @@ pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 --extra-index-url http
 pip install -r requirements.txt
 ```
 
+### Download Dataset
+
+Dataset for training and evaluation is available on [Google Drive]().
+
 ## Performance & Results
 
 We show size-prediction results of the validation set in all 5 folds (0~20 nm):
