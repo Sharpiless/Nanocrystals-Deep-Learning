@@ -1,4 +1,4 @@
-# <p>  <b>xxx: xxx xxxx xx </b> </p>
+# <p>  <b> Controllable Nanocrystal Synthesis with Deep Learning Models </b> </p>
 
 [Paper]() | [Dataset]()
 
