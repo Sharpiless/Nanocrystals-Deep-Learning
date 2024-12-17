@@ -139,11 +139,11 @@ Note that you need to modify the ".pkl" path in "--feats".
 This repository can only be used for personal/research/non-commercial purposes. Please cite the following paper if this model helps your research:
 
 ```
-@inproceedings{xxx,
-    author = {xxx},
-    title = {xxx},
-    booktitle = {xxx},
-    year={202x}
+@inproceedings{DLMCNS2024,
+    author = {Kai Gu, Yingping Liang, Jiaming Su, Peihan Sun, Jia Peng, Naihua Miao, Zhimei Sun, Ying Fu, Haizheng Zhong, Jun Zhang},
+    title = {Deep Learning Models for Colloidal Nanocrystal Synthesis},
+    booktitle = {https://doi.org/10.48550/arXiv.2412.10838},
+    year={2024}
 }
 ```
 
