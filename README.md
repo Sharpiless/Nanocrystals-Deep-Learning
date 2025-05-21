@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ### Download Dataset
 
-Dataset for training and evaluation can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1us6_VNDlI1MZhPdavv4OxJMFF1GHO4El?usp=sharing).
+Dataset for training and evaluation will be released.
 
 Here is one example recipe of our data:
 | ID | Temperature1 | Temperature2 | Speed | Time | Num  | Y1   | Y2   | Y3 | T1 | T2  | A1 | B1 | C1     | D1    | E1    | F1    | G1 | H1 | I1 | J1 | K1 | L1 | M1 | A2  | B2 | C2  | D2  | E2 | F2 | G2 | H2 | I2 | J2 | K2 | L2 | M2         |
