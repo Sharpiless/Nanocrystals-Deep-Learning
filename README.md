@@ -153,4 +153,4 @@ This repository can only be used for personal/research/non-commercial purposes. 
 ```
 
 ## Contact
-If you find any problem, please feel free to contact me (liangyingping@bit.edu.cn). A brief self-introduction (including your name, affiliation and position) is required, if you would like to get an in-depth help from me. I'd be glad to talk with you if more information (e.g. your personal website link) is attached.
+If you find any problem, please feel free to contact me (liangyingping@bit.edu.cn).
