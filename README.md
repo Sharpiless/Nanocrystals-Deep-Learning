@@ -64,6 +64,8 @@ To reproduce our results on size prediction, run:
 bash scripts/best_size.sh
 ```
 
+Or download our pre-traiend checkpoints and training logs from: [https://github.com/Sharpiless/Nanocrystals-Deep-Learning/releases/tag/checkpoints](https://github.com/Sharpiless/Nanocrystals-Deep-Learning/releases/tag/checkpoints)
+
 You will get the same results in log.txt:
 ```
 2024-04-03 15:28:47,001 [INFO]: - eval - mse: 5.0256

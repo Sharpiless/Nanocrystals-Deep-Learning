@@ -182,7 +182,7 @@ if __name__ == '__main__':
             exp_data_dict, _, _ = read_csv_database(
                 args, expand_data, conditions, 
                 args.max_threshold, train_dataset.obj_features,
-                train_dataset.scalers_dict, logger=logger
+                train_dataset.scalers_dict, logger=logger, sample_ratio=0.5
             )
             exp_num = exp_data_dict["nums"].shape[0]
             if args.not_trust_extra:
@@ -192,7 +192,8 @@ if __name__ == '__main__':
                 train_data_dict[k] = np.concatenate([v, exp_data_dict[k]])
         
         if args.load_failure:
-            expand_data = f"data/0309_failure.csv"
+            # expand_data = f"data/0309_failure.csv"
+            expand_data = f"data/0404_failure.csv"
             exp_data_dict, _, _ = read_csv_database(
                 args, expand_data, conditions, 
                 args.max_threshold, train_dataset.obj_features,
@@ -262,7 +263,8 @@ if __name__ == '__main__':
                     x_inputs = torch.cat([x_inputs, c_inputs[:, None, :].repeat(1, x_inputs.shape[1], 1)], -1)
                     # Forward pass
                     outputs_size, outputs_dist, outputs_cls = model(x_inputs, c_inputs, x_mask)
-                    if args.without_size:
+                    # if args.without_size:
+                    if not True:
                         loss = 0.0
                     else:
                         loss = criterion_reg(outputs_size, y_reg_size)
@@ -276,9 +278,11 @@ if __name__ == '__main__':
                         else:
                             loss = loss.mean()
                         
-                    if not args.without_cls:
+                    # if not args.without_cls:
+                    if True:
                         loss += criterion_cls(outputs_cls, y_cls) * 5.0
-                    if not args.without_dist:
+                    # if not args.without_dist:
+                    if not True:
                         loss += criterion_reg(outputs_dist[:, 0], y_reg_dist).mean() * 0.2
                     
                     # Backward and optimize

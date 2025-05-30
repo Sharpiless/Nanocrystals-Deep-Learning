@@ -1,0 +1,11 @@
+Irregular shape
+cube
+flower shape
+four-pointed star
+hexagon
+rectangle
+rhombus
+rod
+six-pointed star
+sphere
+triangle

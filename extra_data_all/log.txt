@@ -1,0 +1,248 @@
+2024-03-10 00:30:06,226 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:06,226 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:06,263 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:06,266 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:06,269 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:06,284 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:06,285 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:06,286 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:06,286 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:06,286 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:06,286 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:06,286 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:06,286 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:06,286 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:09,645 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:09,646 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:09,646 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:09,647 [INFO]: - data - train_num: 493, val num: 124
+2024-03-10 00:30:09,648 [INFO]:  - data - update train_num: 3262
+2024-03-10 00:30:13,143 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:13,144 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:13,163 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:13,165 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:13,167 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:13,179 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:13,179 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:13,180 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:14,598 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:14,598 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:14,598 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:14,599 [INFO]: - data - train_num: 493, val num: 124
+2024-03-10 00:30:14,599 [INFO]:  - data - update train_num: 3262
+2024-03-10 00:30:17,894 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:17,894 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:17,907 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:17,908 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:17,910 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:17,920 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:17,920 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:17,920 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:17,920 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:17,920 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:17,920 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:17,920 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:17,920 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:17,921 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:19,325 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:19,326 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:19,326 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:19,326 [INFO]: - data - train_num: 494, val num: 123
+2024-03-10 00:30:19,326 [INFO]:  - data - update train_num: 3263
+2024-03-10 00:30:22,600 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:22,600 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:22,615 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:22,616 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:22,618 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:22,628 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:22,629 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:24,009 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:24,009 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:24,009 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:24,010 [INFO]: - data - train_num: 494, val num: 123
+2024-03-10 00:30:24,010 [INFO]:  - data - update train_num: 3263
+2024-03-10 00:30:31,189 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:31,190 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:31,215 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:31,217 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:31,220 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:31,234 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:31,234 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:31,235 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:34,362 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:34,363 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:34,363 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:34,364 [INFO]: - data - train_num: 493, val num: 124
+2024-03-10 00:30:34,364 [INFO]:  - data - update train_num: 3262
+2024-03-10 00:30:34,365 [INFO]:  - data - total intern data: {len(self.expand_dict)}
+2024-03-10 00:30:38,285 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:38,285 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:38,303 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:38,304 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:38,306 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:38,316 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:38,316 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:38,317 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:40,499 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:40,500 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:40,500 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:40,501 [INFO]: - data - train_num: 493, val num: 124
+2024-03-10 00:30:40,501 [INFO]:  - data - update train_num: 3262
+2024-03-10 00:30:40,502 [INFO]:  - data - total intern data: {len(self.expand_dict)}
+2024-03-10 00:30:44,517 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:44,518 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:44,533 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:44,534 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:44,536 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:44,547 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:44,547 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:44,547 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:44,547 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:44,548 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:47,749 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:47,749 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:47,749 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:47,750 [INFO]: - data - train_num: 494, val num: 123
+2024-03-10 00:30:47,751 [INFO]:  - data - update train_num: 3263
+2024-03-10 00:30:47,751 [INFO]:  - data - total intern data: {len(self.expand_dict)}
+2024-03-10 00:30:51,128 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:51,129 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:51,145 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:51,146 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:51,148 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:51,157 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:51,157 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:51,158 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:52,546 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:52,546 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:52,547 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:52,547 [INFO]: - data - train_num: 494, val num: 123
+2024-03-10 00:30:52,547 [INFO]:  - data - update train_num: 3263
+2024-03-10 00:30:52,548 [INFO]:  - data - total intern data: {len(self.expand_dict)}
+2024-03-10 00:30:55,804 [INFO]: - model - load feat file from: feats/unimol_feats_20240309_5x.pkl
+2024-03-10 00:30:55,805 [INFO]: - data - loading raw csv data ...
+2024-03-10 00:30:55,818 [INFO]:    - before process: (3489, 37)
+2024-03-10 00:30:55,819 [INFO]:    - after filter threshold (10000): (3489, 37)
+2024-03-10 00:30:55,821 [INFO]: - scaler - use new scalers
+2024-03-10 00:30:55,830 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:55,830 [INFO]: - error - C3H18N3Bi2Br9 not found in .pkl file
+2024-03-10 00:30:55,830 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:55,830 [INFO]: - error - C3H18N3Bi2Cl9 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs3FeCl5 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaYbCl6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaSmBr6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaEuBr6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaTbBr6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaErBr6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaYbBr6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaLaI6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaSmI6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaEuI6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaTbI6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaErI6 not found in .pkl file
+2024-03-10 00:30:55,831 [INFO]: - error - Cs2NaYbI6 not found in .pkl file
+2024-03-10 00:30:57,218 [INFO]: - data - num thre: 300,                 solid data: 720,                 weak data: 2769
+2024-03-10 00:30:57,218 [INFO]: - data - filter thre=20-10000, keep data: (617,)
+2024-03-10 00:30:57,218 [INFO]: - data - filter thre=20-10000, extra data: (103,)
+2024-03-10 00:30:57,219 [INFO]: - data - train_num: 494, val num: 123
+2024-03-10 00:30:57,219 [INFO]:  - data - update train_num: 3263
+2024-03-10 00:30:57,219 [INFO]:  - data - total intern data: {len(self.expand_dict)}
