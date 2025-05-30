@@ -2,6 +2,8 @@
 
 [Paper]() | [Dataset]()
 
+The unprocessed raw dataset is available at https://github.com/Sharpiless/Nanocrystals-Deep-Learning/blob/main/Source%20data/Raw%20recipe%20dataset.xlsx
+
 ## Abstract 
 
 ![Main](assets/main.png)
