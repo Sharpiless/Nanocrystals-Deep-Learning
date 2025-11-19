@@ -147,12 +147,15 @@ Note that you need to modify the ".pkl" path in "--feats".
 ## License and Citation
 This repository can only be used for personal/research/non-commercial purposes. Please cite the following paper if this model helps your research:
 ```
-@inproceedings{DLMCNS2025,
-    author = {Kai Gu, Yingping Liang, Jiaming Su, Peihan Sun, Jia Peng, Naihua Miao, Zhimei Sun, Ying Fu, Haizheng Zhong, Jun Zhang},
-    title = {Deep Learning Models for Colloidal Nanocrystal Synthesis},
+@article{DLMCNS2025,
+    author  = {Kai Gu and Yingping Liang and Jiaming Su and Peihan Sun and Jia Peng and Naihua Miao and Zhimei Sun and Ying Fu and Haizheng Zhong and Jun Zhang},
+    title   = {Deep Learning Models for Colloidal Nanocrystal Synthesis},
     journal = {ACS Nano},
-    doi = {10.1021/acsnano.5c09134},
-    year={2025}
+    year    = {2025},
+    volume  = {19},
+    number  = {45},
+    pages   = {39025--39034},
+    doi     = {10.1021/acsnano.5c09134}
 }
 ```
 
